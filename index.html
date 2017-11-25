@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Coda.Br: Workshop for DDJ Transparency</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/beige.css"> -->
+		<link rel="stylesheet" href="css/theme/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section class="newspapers" data-background-image="img/world-newspapers2.png">
+					 <a href="http://coda.escoladedados.org" target="_blank">
+						 <img src="img/logo-coda-horizontal.png" style="width: 30%; height: 30%; opacity:1; margin-left: -50rem"/>
+					 </a>
+					<h1 class='newspapers'>Como construir transparência editorial em equipes de jornalismo de dados</h1>
+					<!-- <br> -->
+					<h4>Slides at https://github.com/JAStark/Coda-Br_Workshop2017Slides</h3>
+					<h3 class='title'>Jennifer A. Stark, Ph.D.</h3>
+				</section>
+
+				<section>
+					<section>
+						<h3 class='title'>Why Make our work transparent??</h3>
+						•
+						•
+						•
+						<li class="fragment fade-up">Encourage better documentation and code commenting (good for future you and colleagues)</li>
+						<li class="fragment fade-up">Build trust with readers, be accountable</li>
+						<li class="fragment fade-up">Educational</li>
+						<li class="fragment fade-up">Catalyse new projects</li>
+					</section>
+					<section>
+						<h3 class='title'>Standardise transparency structure</h3>
+						<li class="fragment fade-up">Easy to pick up an unfamilar project
+							<ul>
+								<li class="fragment fade-up">Us starting a new project</li>
+								<li class="fragment fade-up">Us reading a colleagues' project (eg code review)</li>
+								<li class="fragment fade-up">Our readers exploring our work</li>
+							</ul>
+
+						<li class="fragment fade-up">Less cognitive load for everyone if the format/layout is predictable</li>
+					</section>
+					<section>
+						<h3 class='title'>Today: Guide you through <em>a</em> process</h3>
+						<li class="fragment fade-up">Install <a target="_blank" href="https://git-scm.com/downloads">Git</a> (optional,
+							<a target="_blank" href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">help</a>)</li>
+
+						<li class="fragment fade-up">Install <a target="_blank" href="https://desktop.github.com/">GitHub Desktop</a>
+						(<a target="_blank" href="https://help.github.com/desktop/guides/getting-started-with-github-desktop/">help</a>)</li>
+
+						<li class="fragment fade-up">Create <a target="_blank" href="https://github.com/">GitHub account</a> online
+							(<a target="_blank" href="https://www.wikihow.com/Create-an-Account-on-GitHub">help</a>)</li>
+
+						<li class="fragment fade-up">Structure your #DDJ project and put online!</li>
+					</section>
+				</section>
+
+				<section>
+					<a href="http://coda.escoladedados.org" target="_blank">
+						<!-- <img src="img/logo-coda-horizontal.png" style="width: 30%; height: 30%; opacity:0.7; margin-right: 1em"/> -->
+						<img src="img/logo-coda-horizontal.png" style="width: 20%; height: 20%; opacity:1; margin-left: -50rem"/>
+					</a>
+					<h3 class="title">Thank you!</h3>
+					<p class="thankyou"><a target="_blank" href="https://twitter.com/_JAStark">@_JAStark</a></p>
+					<p class="thankyou">jastark@protonmail.com</p>
+					<p class="thankyou"><a target="_blank" href="https://github.com/JAStark/Coda-Br_Workshop2017">
+						Transparency workshop repository</a></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
